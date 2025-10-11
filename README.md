@@ -243,9 +243,8 @@ Essentially, higher PCI values are associated with conscious, desynchronized sta
 **Expected Answer:**
 
 The Perturbational Complexity Index (PCI) is a measure of consciousness and brain complexity derived from Transcranial Magnetic Stimulation (TMS) combined with Electroencephalography (EEG).
-Definition: The PCI quantifies the spatiotemporal complexity of the brain's response to a direct, focal magnetic pulse. A higher value indicates that the perturbation successfully generated a pattern of neural activity that is both integrated (spreads widely) and differentiated (is complex and non-stereotyped).
 
----
+Definition: The PCI quantifies the spatiotemporal complexity of the brain's response to a direct, focal magnetic pulse. A higher value indicates that the perturbation successfully generated a pattern of neural activity that is both integrated (spreads widely) and differentiated (is complex and non-stereotyped).
 
 State Change:
 
