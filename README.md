@@ -269,6 +269,9 @@ Medical consultations involve multi-turn clarifications. Rolling summarization m
 ### Temperature Setting
 
 0.3 provides balanced accuracy and creativity, suitable for medical information where factual accuracy is critical but natural language generation is still needed.
+
+---
+
 ---
 
 ## Source Publications
