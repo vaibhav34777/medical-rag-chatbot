@@ -1,3 +1,4 @@
+# This will create the vectorstore/ directory which contains the chroma vectorstore
 import os
 import requests
 import feedparser
