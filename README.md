@@ -252,6 +252,9 @@ Wakefulness: PCI is high. The brain is desynchronized, and the TMS pulse generat
 
 NREM Sleep (SWS): PCI is low (approaching zero). Although local neurons may still be excitable, the response remains localized and stereotyped (often a simple Down state), failing to propagate. This signals a breakdown of global effective connectivity and a loss of consciousness.
 
+---
+---
+
 ## Design Decisions
 
 ### Multi-Query Retrieval
