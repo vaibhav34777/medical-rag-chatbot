@@ -76,6 +76,7 @@ Documents are processed through the following pipeline:
 - Chunking (1500 characters with 300 character overlap)
 - Embedding using sentence-transformers/all-MiniLM-L6-v2
 - Storage in ChromaDB
+- We got [vectorstore](vectorstore) by executing [build_index.py](build_index.py)
 
 The chunking strategy maintains semantic coherence while ensuring context preservation at chunk boundaries.
 
@@ -231,12 +232,4 @@ Medical consultations involve multi-turn clarifications. Rolling summarization m
 ### Temperature Setting
 
 0.3 provides balanced accuracy and creativity, suitable for medical information where factual accuracy is critical but natural language generation is still needed.
-
----
-
-## Author
-
-Vaibhav  
-GitHub: @vaibhav34777
-
 ---
