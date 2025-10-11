@@ -146,7 +146,7 @@ Brain-Computer Interface (MI-BCI) rehabilitation protocols for stroke patients:
 
 ---
 **Expected Answer:**
----
+
 The study explored two primary strategies to optimize MI-BCI protocols for stroke rehabilitation: optimizing the task design and reducing the training duration.
 
 Optimized Task Design: Affected-Hand MI versus Rest
@@ -190,7 +190,7 @@ with a mean accuracy of 65.8% in the R:Rest condition.
 
 ---
 **Expected Answer:**
----
+
 The conventional paradigm that was replaced by the affected-hand MI versus rest approach was the left versus right-hand motor imagery (L:R) paradigm.
 
 
