@@ -18,7 +18,7 @@ def load_vectorstore():
     return vectorstore.as_retriever(search_kwargs={"k": 6}), vectorstore
 
 def load_llm():
-    api_key = "AIzaSyBmk_5xiADBgdBQuNYavK_HPKruT1xBuTQ"
+    api_key = "YOUR-GOOGLE-API-KEY"
     return ChatGoogleGenerativeAI(model="gemini-2.5-flash-preview-05-20", google_api_key=api_key, temperature=0.3)
 
 retriever, vectorstore = load_vectorstore()
