@@ -49,7 +49,7 @@ The Gradio interface will launch at `http://localhost:7860`
 
 ---
 
-### Demo
+## Demo
 You can try the chatbot here : [Hugging Face Space](https://huggingface.co/spaces/imvaibhavrana/medical-research-chatbot)
 
 ---
