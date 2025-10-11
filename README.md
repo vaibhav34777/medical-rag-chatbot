@@ -144,6 +144,18 @@ Brain-Computer Interface (MI-BCI) rehabilitation protocols for stroke patients:
 2. 05_Optimizing_BCI_Rehabilitation_Protocols_for_Stroke.pdf
 3. 05_Optimizing_BCI_Rehabilitation_Protocols_for_Stroke.pdf
 
+---
+**Expected Answer**
+The study explored two primary strategies to optimize MI-BCI protocols for stroke rehabilitation: optimizing the task design and reducing the training duration.
+
+Optimized Task Design: Affected-Hand MI versus Rest
+The conventional task for upper-limb rehabilitation is the left versus right-hand motor imagery (L:R) paradigm, which often underperforms in stroke patients due to the loss of lateralization and the presence of compensatory ipsilateral activation.
+
+
+The proposed alternative is the affected-hand movement versus rest (MI:Rest) paradigm.
+
+---
+
 ### Example 2: Follow-up Query with Memory
 
 **Query**:
@@ -176,7 +188,27 @@ with a mean accuracy of 65.8% in the R:Rest condition.
 3. 05_Optimizing_BCI_Rehabilitation_Protocols_for_Stroke.pdf
 
 ---
+**Expected Answer**
+The conventional paradigm that was replaced by the affected-hand MI versus rest approach was the left versus right-hand motor imagery (L:R) paradigm.
 
+
+
+
+The FBCSP classifier showed the highest mean accuracy using the proposed MI versus rest paradigm for the Stroke Subjects Left Hand Affected (LHP) group.
+
+
+
+The specific results are:
+
+
+LHP (Left-Hand Paralysis): Mean FBCSP accuracy for L:Rest was 64.3%.
+
+
+
+
+RHP (Right-Hand Paralysis): Mean FBCSP accuracy for R:Rest was 63.3%.
+
+---
 ---
 
 ## Design Decisions
