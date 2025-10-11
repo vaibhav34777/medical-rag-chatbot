@@ -215,6 +215,45 @@ RHP (Right-Hand Paralysis): Mean FBCSP accuracy for R:Rest was 63.3%.
 ---
 ---
 
+### Example 3: A differnt question for a new user
+
+**Query**:
+
+```
+What is the Perturbational Complexity Index (PCI), and how does its value fundamentally change when the brain transitions from the conscious, desynchronized state of wakefulness to the unconscious, synchronized state of NREM slow-wave sleep?
+```
+
+**Answer**:
+```
+The Perturbational Complexity Index (PCI) is a measure that quantifies the spatiotemporal complexity of neural responses to perturbation, such as electrical stimulation or transcranial magnetic stimulation (TMS). It aims to assess how complex and varied the brain's activity patterns are following an external input, including properties like propagating waves.
+
+When the brain transitions from the conscious, desynchronized state of wakefulness to the unconscious, synchronized state of NREM slow-wave sleep, the value of PCI fundamentally changes:
+
+1.  **Conscious, Desynchronized Wakefulness:** In this state, neuronal activity is desynchronized and irregular. The brain is characterized by facilitated propagation of activity through the network and a **marked increase in PCI** in response to external stimuli. Neurons respond more reliably and with less response variability to inputs, indicating higher complexity.
+2.  **Unconscious, Synchronized NREM Slow-Wave Sleep:** During slow-wave sleep, synchronous patterns of rhythmic activity dominate the cellular membrane potential. This makes the neural network unreliable and less responsive to inputs. Consequently, the switch to slow-wave activity is consistently accompanied by a **decrease in PCI**, reflecting lower complexity in the neural responses to perturbation.
+
+Essentially, higher PCI values are associated with conscious, desynchronized states, while lower PCI values are characteristic of unconscious, synchronized states like NREM slow-wave sleep. An optimal cutoff (PCIlz = 0.31) has even been identified to distinguish conscious from unconscious states with high accuracy.
+```
+
+**Sources**:
+1. 07_Statedependent_brain_responsiveness_from_local_cir.pdf
+2. 07_Statedependent_brain_responsiveness_from_local_cir.pdf
+
+--- 
+**Expected Answer:**
+
+The Perturbational Complexity Index (PCI) is a measure of consciousness and brain complexity derived from Transcranial Magnetic Stimulation (TMS) combined with Electroencephalography (EEG).
+
+Definition: The PCI quantifies the spatiotemporal complexity of the brain's response to a direct, focal magnetic pulse. A higher value indicates that the perturbation successfully generated a pattern of neural activity that is both integrated (spreads widely) and differentiated (is complex and non-stereotyped).
+---
+
+
+State Change:
+
+Wakefulness: PCI is high. The brain is desynchronized, and the TMS pulse generates a complex, propagating response, signifying rich effective connectivity.
+
+NREM Sleep (SWS): PCI is low (approaching zero). Although local neurons may still be excitable, the response remains localized and stereotyped (often a simple Down state), failing to propagate. This signals a breakdown of global effective connectivity and a loss of consciousness.
+
 ## Design Decisions
 
 ### Multi-Query Retrieval
@@ -233,3 +272,38 @@ Medical consultations involve multi-turn clarifications. Rolling summarization m
 
 0.3 provides balanced accuracy and creativity, suitable for medical information where factual accuracy is critical but natural language generation is still needed.
 ---
+
+## Source Publications
+
+The chatbot was built on a corpus of ten recent medical research papers fetched from arXiv.  
+These publications span neuroscience, bioimaging, molecular biology, and medical AI.
+
+1. 05_Optimizing_BCI_Rehabilitation_Protocols_for_Stroke.pdf  
+   *Motor imagery–based brain–computer interface optimization for stroke rehabilitation.*
+
+2. 03_Effect_of_modeling_subjectspecific_cortical_folds_.pdf  
+   *Study on cortical fold modeling and its influence on neuroelectrical simulations.*
+
+3. 04_Quantification_of_protein_homodimer_affinity_using.pdf  
+   *Quantitative analysis of protein homodimer affinity using fluorescence methods.*
+
+4. 01_Spikefrequency_and_hcurrent_based_adaptation_are_d.pdf  
+   *Investigation of spike-frequency adaptation and H-current dynamics in neurons.*
+
+5. 09_Large_Language_Models_Meet_Virtual_Cell_A_Survey.pdf  
+   *Survey on integrating large language models with cellular biology simulations.*
+
+6. 02_Biologydriven_assessment_of_deep_learning_superres.pdf  
+   *Evaluation of deep-learning–based super-resolution imaging in biological microscopy.*
+
+7. 07_Statedependent_brain_responsiveness_from_local_cir.pdf  
+   *Analysis of state-dependent brain responsiveness derived from local circuit models.*
+
+8. 10_Upconverting_microgauges_reveal_intraluminal_force.pdf  
+   *Optical microgauge technique for measuring intraluminal forces in tissue samples.*
+
+9. 06_MRIderived_quantification_of_hepatic_vesseltovolum.pdf  
+   *MRI-based quantification of hepatic vessel-to-volume ratios in liver imaging.*
+
+10. 08_NonKramers_State_Transitions_in_a_Synthetic_Toggle.pdf  
+    *Study of non-Kramers state transitions in synthetic biological toggle systems.*
