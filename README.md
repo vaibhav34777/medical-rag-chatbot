@@ -100,6 +100,7 @@ The LLM (Gemini 2.5 Flash) generates responses with temperature 0.3 for balanced
 ---
 
 ## Sample Queries & Outputs
+You can execute the complete flow and also check out the demo question answering here: [demo.ipynb](demo.ipynb)
 
 ### Example 1: Complex Multi-Part Query
 
