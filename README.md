@@ -17,7 +17,7 @@ Assignment Option: Option B - Medical Publications-Based Chatbot
 ## Quick Start
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python 3.10 or higher
 - Google Gemini API key
 
 ### Installation
@@ -55,30 +55,11 @@ The Gradio interface will launch at `http://localhost:7860`
 
 Traditional single-query retrieval can miss relevant documents due to semantic distance limitations. Our system generates 5 diverse query variants from the user's original question, retrieves documents for each variant, and deduplicates the results to get comprehensive coverage.
 
-**Implementation**:
-```python
-def generate_multi_queries(question):
-    template = """Generate five different versions of the given 
-    user question to retrieve relevant medical research documents..."""
-    
-    return generate_queries.invoke({"question": question})
-```
-
 This approach increases retrieval recall by capturing different semantic perspectives and handling ambiguous medical terminology effectively.
 
 ### 2. Conversation Summary Memory
 
 Maintains context across multi-turn conversations without exceeding token limits. Instead of storing full conversation history, we use rolling summarization where each new exchange updates the existing summary.
-
-**Memory Structure**:
-```python
-chat_histories = {
-    "session_id": {
-        "messages": [(q1, a1), (q2, a2), ...],
-        "summary": "Compressed conversation context"
-    }
-}
-```
 
 Each user session has isolated conversation state, and summaries remain compact at 200-400 tokens while preserving critical context.
 
@@ -191,39 +172,6 @@ with a mean accuracy of 65.8% in the R:Rest condition.
 
 ---
 
-## Project Structure
-
-```
-medical-rag-chatbot/
-├── app.py                      # Main Gradio application
-├── demo.ipynb                  # Jupyter notebook with examples
-├── requirements.txt            # Python dependencies
-├── README.md                   # This file
-├── flow_diagram.png            # System architecture diagram
-├── data/                       # Downloaded medical papers (PDFs)
-│   ├── 01_paper_title.pdf
-│   ├── 02_paper_title.pdf
-│   └── ...
-├── vectorstore/                # ChromaDB persistent storage
-│   └── chroma.sqlite3
-└── logs/                       # Optional application logs
-```
-
----
-
-## Technical Requirements Compliance
-
-| Requirement | Implementation | Status |
-|------------|----------------|--------|
-| Language | Python 3.8+ | Done |
-| LLM Provider | Google Gemini 2.5 Flash | Done |
-| Embedding Model | sentence-transformers/all-MiniLM-L6-v2 | Done |
-| Vector DB | ChromaDB | Done |
-| Document Count | 10+ medical publications from arXiv | Done |
-| Retrieval System | Multi-query retrieval with deduplication | Done |
-| Interface | Gradio web UI | Done |
-| Citations | Source documents with previews | Done |
-
 ---
 
 ## Design Decisions
@@ -252,5 +200,3 @@ Vaibhav
 GitHub: @vaibhav34777
 
 ---
-
-Last Updated: October 2025
