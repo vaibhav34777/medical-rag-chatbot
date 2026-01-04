@@ -4,8 +4,6 @@
 
 A Retrieval-Augmented Generation (RAG) chatbot that answers medical research queries using a vector database of medical publications from arXiv. The system implements Multi-Query Retrieval and Conversation Summary Memory to provide context-aware, accurate responses backed by scientific literature.
 
-Assignment Option: Option B - Medical Publications-Based Chatbot
-
 ---
 
 ## System Architecture
